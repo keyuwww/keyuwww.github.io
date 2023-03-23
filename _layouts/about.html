@@ -50,13 +50,19 @@ layout: default
           {%- endif %}
           {%- if page.social %}
 
+          <!-- Social -->
+          <div class="social">
+            <div class="contact-icons">
+            {% include social.html %}
+            </div>
+            
           <!-- highlights -->
           <div class="custom_projects" id="highlights">
             {% if page.highlights %}
               {% include highlights.html %}
             {% endif %}
           </div>
-          
+     
           <!-- experience -->
           <div class="custom_projects" id="experience">
             {% if page.experience %}
@@ -64,11 +70,7 @@ layout: default
             {% endif %}
           </div>
 
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
+   
 
             {% if page.education %}
             <div class="custom_projects" id="education">
