@@ -55,14 +55,19 @@ layout: default
             <div class="contact-icons">
             {% include social.html %}
             </div>
-            
+
           <!-- highlights -->
           <div class="custom_projects" id="highlights">
             {% if page.highlights %}
               {% include highlights.html %}
             {% endif %}
           </div>
-     
+          <!-- education -->
+          {% if page.education %}
+          <div class="custom_projects" id="education">
+              {% include education.html %}
+          </div>
+          {% endif %}
           <!-- experience -->
           <div class="custom_projects" id="experience">
             {% if page.experience %}
@@ -71,19 +76,14 @@ layout: default
           </div>
 
    
-
-            {% if page.education %}
-            <div class="custom_projects" id="education">
-                {% include education.html %}
-            </div>
-            {% endif %}
-
+          <!-- projects -->
           <div class="custom_projects" id="projects">
             {% if page.projects %}
               {% include projects.html %}
             {% endif %}
             </div>
             
+            <!-- misc -->
             <div class="misc" id="misc">
             {% if page.misc %}
               {% include misc.html %}
