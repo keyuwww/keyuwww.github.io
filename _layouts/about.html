@@ -68,12 +68,7 @@ layout: default
               {% include education.html %}
           </div>
           {% endif %}
-          <!-- experience -->
-          <div class="custom_projects" id="experience">
-            {% if page.experience %}
-              {% include experience.html %}
-            {% endif %}
-          </div>
+
 
    
           <!-- projects -->
@@ -82,6 +77,13 @@ layout: default
               {% include projects.html %}
             {% endif %}
             </div>
+
+           <!-- experience -->
+          <div class="custom_projects" id="experience">
+            {% if page.experience %}
+              {% include experience.html %}
+            {% endif %}
+          </div>
             
             <!-- misc -->
             <div class="misc" id="misc">
