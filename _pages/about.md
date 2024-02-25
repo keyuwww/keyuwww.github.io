@@ -23,8 +23,8 @@ experience: true
 # social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 4th-year undergraduate student at the **McGill University**'s [Computer Science](https://www.cs.mcgill.ca/) program with a minor in [Geographical Information Science](https://gic.geog.mcgill.ca/). Currently, I am supervised by Professor [**Raja Sengupta**](https://tomlinson.lab.mcgill.ca/Sengupta/index.html) (affiliations: GIScience, Spatial decision support systems, Agent-based modeling), working on **project website development**, **webmap data visualization** for possible migrations taken by nobles in early imperial China (Western Han period). At the same time, I am interning at [Bell Canada](https://www.bell.ca/) as a Data Scientist, working on building ML solutions to business problems.
+I am a 4th-year undergraduate student at the **McGill University**'s [Computer Science](https://www.cs.mcgill.ca/) program with a minor in [Geographical Information Science](https://gic.geog.mcgill.ca/). Currently, I am supervised by Professor [**Doina Precup**](https://mila.quebec/en/person/doina-precup/) (affiliations: Machine Learning, Reinforcement Learning, AI Applications, reasoning and planning under uncertainty), working on **privacy issues in Large Language Models** towards possible privacy policy creation for LLM publications in the future.
 
-I have an interest in frontend development and web data visualization, especially when associated with Geospatial Data Science.
+In the past, I was supervised by Professor [**Raja Sengupta**](https://tomlinson.lab.mcgill.ca/Sengupta/index.html) (affiliations: GIScience, Spatial decision support systems, Agent-based modeling), working on **project website development**, **webmap data visualization** for possible migrations taken by nobles in early imperial China (Western Han period). I also had an internship at [Bell Canada](https://www.bell.ca/) as a Data Scientist, working on building ML solutions to business problems.
 
 Whether you are an incoming student at the McGill University or would like to chat in general, feel free to reach out to me via one of the contact information below.
