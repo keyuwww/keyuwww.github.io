@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=https://www.mcgill.ca/>McGill University</a>. Aspiring Data Scientist | Undergraduate Research Assistant
+subtitle: <a href=https://www.mcgill.ca/>McGill University</a>. Trustworthy ML | Undergraduate Research Assistant
 
 profile:
   align: right
-  image: assets/img/keyu/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p></p>
