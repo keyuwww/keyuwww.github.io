@@ -31,4 +31,4 @@ Beyond academia, I’ve had two internships as a Data Scientist at [Bell Canada]
 
 I hold a B.Sc. in [Computer Science](https://www.cs.mcgill.ca/) from **McGill University**, with a minor in Geographic Information Science. During my undergraduate, I was also supervised by Dr. [**Raja Sengupta**](https://tomlinson.lab.mcgill.ca/Sengupta/index.html) (affiliations: GIScience, Agent-based modeling), working on **map digitization**, **webmap data visualization** for a historical geography prject about possible migrations taken by nobles in early imperial China.
 
-Whether you are a student exploring ML, a collaborator interested in interpretability, or simply curious about responsible AI, feel free to connect with me through the links below.
+Whether you are a student exploring ML, a collaborator curious about responsible AI, feel free to connect with me through the links below.
