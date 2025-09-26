@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=https://www.mcgill.ca/>McGill University</a>. Trustworthy ML | Undergraduate Research Assistant
+subtitle: <a href=https://www.harvard.edu/>Harvard University</a>. Trustworthy ML | Mechanistic Interptability
 
 profile:
   align: right
@@ -23,10 +23,12 @@ experience: true
 # social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 4th-year undergraduate student at the **McGill University**'s [Computer Science](https://www.cs.mcgill.ca/) program with a minor in [Geographical Information Science](https://gic.geog.mcgill.ca/). Currently, I am supervised by Professor [**Doina Precup**](https://mila.quebec/en/person/doina-precup/) (affiliations: Machine Learning, Reinforcement Learning, reasoning and planning under uncertainty), working on **model provenance risks in Vision Language Models** towards possible policy creation for model publications in the future.
+I am a Master of Science in **Data Science** student at [Harvard University](https://www.harvard.edu/) (expected graduating Jan 2027). My research and engineering focus on **trustworthy machine learning**, **mechanistic interpretability**, and **responsible deployment of LLMs**. I currently serve as a Research Assistant at Harvard Business School and a Policy & Technical Fellow with the AI Safety Student Team.
 
-In the past, I was supervised by Professor [**Raja Sengupta**](https://tomlinson.lab.mcgill.ca/Sengupta/index.html) (affiliations: GIScience, Spatial decision support systems, Agent-based modeling), working on **map digitization**, **webmap data visualization** for a historical geography prject about possible migrations taken by nobles in early imperial China (Western Han period). I also had 2 internships at [Bell Canada](https://www.bell.ca/) as a Data Scientist, where I've built ML solutions to business problems.
+ Supported by NSERC Undergraduate Student Research Awards, I conducted research at **Mila**, under the supervision of Dr. [**Doina Precup**](https://mila.quebec/en/person/doina-precup/) (affiliations: Machine Learning, Reinforcement Learning, reasoning and planning under uncertainty), I investigated model provenance risks in healthcare and published a first-author paper at NeurIPS 2024 workshop. Earlier this year, I was a research intern at the [Machine Learning and Data Science Unit](https://oist.mlds.jp/) at the Okinawa Institute of Science and Technology ([OIST](https://www.oist.jp/)) and a visiting student at the [Provable Responsible AI and Data Analytics Lab](https://pradalab1.github.io/opening.html) at [KAUST](https://www.kaust.edu.sa/en/), where I co-led work on uncovering sycophantic behaviors in LLMs and co-first-authored a paper on mechanistic interpretability.
 
-For this exciting upcoming year, I will be visiting the [Provable Responsible AI and Data Analytics Lab](https://pradalab1.github.io/opening.html) at the King Abdullah University of Science and Technology ([KAUST](https://www.kaust.edu.sa/en/)) as a visiting student, and then the [Machine Learning and Data Science Unit](https://oist.mlds.jp/) at the Okinawa Institute of Science and Technology ([OIST](https://www.oist.jp/)) as a research intern.
+Beyond academia, I’ve had two internships as a **Data Scientist at Bell Canada**, where I built ML solutions for business intelligence, network prediction, and cloud-based data engineering pipelines on GCP. I also worked as a Machine Learning Engineer at Moonarch, developing a document extraction pipeline that improved accuracy on large-scale startup profile analysis.
 
-Whether you are an incoming student to McGill or would like to chat in general, feel free to reach out to me via one of the contact information below.
+I hold a **B.Sc. in Computer Science** (with a minor in Geographic Information Science) from [McGill University](https://www.cs.mcgill.ca/). I was also once supervised by Professor [**Raja Sengupta**](https://tomlinson.lab.mcgill.ca/Sengupta/index.html) (affiliations: GIScience, Agent-based modeling), working on **map digitization**, **webmap data visualization** for a historical geography prject about possible migrations taken by nobles in early imperial China (Western Han period).
+
+Whether you are a student exploring ML, a collaborator interested in interpretability, or simply curious about responsible AI, feel free to connect with me through the links below.
