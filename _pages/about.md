@@ -11,7 +11,7 @@ profile:
   address: >
     <p></p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 highlights: true
 social: true  # includes social icons at the bottom of the page
 education: true
