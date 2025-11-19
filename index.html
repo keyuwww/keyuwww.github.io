@@ -151,13 +151,9 @@
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/prof_pic-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/prof_pic-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp"></source>
-    
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -182,9 +178,6 @@
 
           </div>
 
-          
-          
-
           <!-- Social -->
           <div class="social">
             <div class="contact-icons">
@@ -205,13 +198,61 @@
 
 
 
-<a href="assets/pdf/KeyuWang_CV_Sep2025.pdf" style="color:black"><i class="fas fa-file-alt"></i></a>
+<a href="assets/pdf/KeyuWang_CV_Nov2025.pdf" style="color:black"><i class="fas fa-file-alt"></i></a>
             </div>
+          </div>
+
+          <!-- News -->
+          <div class="news">
+            <h2 style="padding-top: 20px;"><b>news</b></h2>
+            <div class="table-responsive" style="max-height: 10vw">
+              <table class="table table-sm table-borderless">
+              
+                <tr style="font-size: 0.9rem;">
+                  <th scope="row" style="white-space: nowrap; width: 1%; padding-right: 1rem;">Nov 7, 2025</th>
+                  <td>
+                    Our paper on LLM mechanistic interpretability accepted to AAAI 2026 main track (acceptance rate 17.6%)! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20">
+
+                  </td>
+                </tr>
+                <tr style="font-size: 0.9rem;">
+                  <th scope="row" style="white-space: nowrap; width: 1%; padding-right: 1rem;">Nov 5, 2025</th>
+                  <td>
+                    Co-organizing then Symposium on Model Accountability, Sustainability and Healthcare (SMASH) 2025 at Mila, Quebec AI Institute; presenting my spotlight paper on LLM sycophancy.
+
+                  </td>
+                </tr>
+                <tr style="font-size: 0.9rem;">
+                  <th scope="row" style="white-space: nowrap; width: 1%; padding-right: 1rem;">Oct 28, 2025</th>
+                  <td>
+                    Joined Harvard Law School’s Berkman Klein Center for Internet &amp; Society as a Research Assistant working on AI self-representation and model introspection! <img class="emoji" title=":tada:" alt=":tada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20" width="20">
+
+                  </td>
+                </tr>
+                <tr style="font-size: 0.9rem;">
+                  <th scope="row" style="white-space: nowrap; width: 1%; padding-right: 1rem;">Oct 16, 2025</th>
+                  <td>
+                    Joined Harvard Business School as a Research Assistant! <img class="emoji" title=":books:" alt=":books:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png" height="20" width="20">
+
+                  </td>
+                </tr>
+                <tr style="font-size: 0.9rem;">
+                  <th scope="row" style="white-space: nowrap; width: 1%; padding-right: 1rem;">Sep 1, 2025</th>
+                  <td>
+                    Started my Master of Science in Data Science at Harvard University! <img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20">
+
+                  </td>
+                </tr> 
+              </table>
+            </div> 
+          </div>
+
+          
 
           <!-- highlights -->
           <div class="custom_projects" id="highlights">
             
-              <h2><b>highlighting skills</b></h2>
+              <h2 style="padding-top: 20px;"><b>highlighting skills</b></h2>
 <ul>
   <li>Programming Languages: Python, Java, C++, JavaScript, HTML, CSS, MATLAB, Bash, OCaml</li>
   <li>Databases: PostGreSQL, DB2, Teradata SQL, Microsoft SQL, SAS</li>
@@ -231,7 +272,7 @@
   <tbody>
     <tr>
       <td style="padding-right: 20px; width:25%;vertical-align:middle">
-        <img src="assets/img/harvard-logo.svg" alt="harvard-logo" width="140" height="140">
+        <img src="assets/img/keyu/harvard-logo.svg" alt="harvard-logo" width="140" height="140">
       </td>
       <td width="75%" valign="middle">
         <p><strong>Harvard University</strong></p>
@@ -273,7 +314,37 @@
 <p>For more projects, please visit my <a href="https://github.com/keyuwww" rel="external nofollow noopener" target="_blank">Github</a></p>
 
 
-<table style="padding-top: 10px; width:100%;border:0px;border-spacing:0px;border-collapse:separate;"><tbody>  
+<table style="padding-top: 10px; width:100%;border:0px;border-spacing:0px;border-collapse:separate;"><tbody>
+  <tr>
+    <td style="padding-right: 20px; width:25%;vertical-align:middle">
+      <img src="assets/img/keyu/sycophancy.png" alt="sycophancy" width="160" height="140">
+    </td>
+    <td width="75%" valign="middle">
+      <p1>
+      <strong>When Truth Is Overridden: Uncovering the Internal Origins of Sycophancy in Large Language Models</strong>
+      <br> [Accepted at <strong>AAAI 2026</strong> (acceptance rate 17.6%)] [Spotlight at Symposium on Model Accountability, Sustainability and Healthcare (<strong>SMASH</strong>), 2025]
+      <br> <a href="https://arxiv.org/abs/2508.02087" rel="external nofollow noopener" target="_blank">Paper</a> / <a href="https://github.com/kaustpradalab/LLM-sycophancy" rel="external nofollow noopener" target="_blank">Code</a>
+      <br> <br> Understanding LLM's sycophantic behavior inside model architecture, running inference on 15 open-source models from HuggingFace on GPU clusters. </p1>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="padding-top: 30px; width:100%;border:0px;border-spacing:0px;border-collapse:separate;"><tbody>
+  <tr>
+    <td style="padding-right: 20px; width:25%;vertical-align:middle">
+      <img src="assets/img/keyu/fraud.png" alt="fraud-detection" width="160" height="140">
+    </td>
+    <td width="75%" valign="middle">
+      <p1>
+      <strong>Fraud-r1: A Multi-round Benchmark for Assessing the Robustness of LLMs Against Augmented Fraud and Phishing Inducements</strong>
+      <br> [Accepted at <strong>Findings of the Association for Computational Linguistics (ACL) 2025 Findings</strong>]
+      <br> <a href="https://arxiv.org/abs/2502.12904" rel="external nofollow noopener" target="_blank">Paper</a> / <a href="https://github.com/kaustpradalab/Fraud-R1" rel="external nofollow noopener" target="_blank">Code</a>
+    <br> <br> Built a benchmark for fraud detection, evaluating on 15 open- and closed-source models on 8,500+ fraud cases. </p1>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="padding-top: 30px; width:100%;border:0px;border-spacing:0px;border-collapse:separate;"><tbody>
   <tr>
     <td style="padding-right: 20px; width:25%;vertical-align:middle">
       <img src="assets/img/keyu/umr.png" alt="clean-usnob" width="160" height="140">
@@ -282,7 +353,7 @@
       <p1>
       <strong>Mitigating Downstream Model Risks via Model Provenance</strong>
       <br> [Accepted at the <strong>NeurIPS 2024 workshop</strong>: SoLaR] [Oral Presentation @ McGill Undergraduate Computer Science Research Symposium]
-      <br> <a href="https://arxiv.org/abs/2410.02230" rel="external nofollow noopener" target="_blank">arXiv</a> / <a href="https://modelrecord.com/" rel="external nofollow noopener" target="_blank">Website</a> / <a href="https://github.com/modelrecords/modelrecords/tree/main" rel="external nofollow noopener" target="_blank">Code</a>
+      <br> <a href="https://arxiv.org/abs/2410.02230" rel="external nofollow noopener" target="_blank">Paper</a> / <a href="https://neurips.cc/media/PosterPDFs/NeurIPS%202024/103302.png?t=1733328249.398975" rel="external nofollow noopener" target="_blank">Poster</a> / <a href="https://modelrecord.com/" rel="external nofollow noopener" target="_blank">Website</a> / <a href="https://github.com/modelrecords/modelrecords/tree/main" rel="external nofollow noopener" target="_blank">Code</a>
       <br> <br> Illustrated model provenance risk in healthcare, identified key properties for early warning systems, and proposed an open-source, community-led system for tracking model provenance, aiming to enhance transparency and establish a new standard for responsible model management. </p1>
     </td>
   </tr>
@@ -359,7 +430,63 @@
               <h2 style="padding-top: 30px;"><b>experience</b></h2>
 <p>For more past work experience, please visit my <a href="https://www.linkedin.com/in/keyuw/" rel="external nofollow noopener" target="_blank">LinkedIn</a></p>
 
-<table style="padding-top: 10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>  
+<table style="padding-top: 10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding-right: 20px; width:25%;vertical-align:middle">
+      <img src="assets/img/keyu/harvard-law-school.webp" alt="berkman-klein" width="160" height="150">
+    </td>
+    <td width="75%" valign="middle">
+      <p1>
+      <strong>AI Workstreams Research Assistant</strong>
+      <br><a href="https://cyber.harvard.edu/" rel="external nofollow noopener" target="_blank">Harvard Law School - Berkman Klein Center For Internet &amp; Society</a> | 2025-Present
+      <br> <br> Conducting literature review on AI self-representation and model introspection, including evaluation of LLMs' self-knowledge, reasoning accuracy, and transparency; building benchmarks for model agency and self-reporting reliability.</p1>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="padding-top: 30px; width:100%;border:0px;border-spacing:0px;border-collapse:separate;"><tbody>
+  <tr>
+    <td style="padding-right: 20px; width:25%;vertical-align:middle">
+      <img src="assets/img/keyu/oist-logo.jpg" alt="oist" width="160" height="150">
+    </td>
+    <td width="75%" valign="middle">
+      <p1>
+      <strong>Machine Learning &amp; Data Science Research Intern</strong>
+      <br><a href="https://www.oist.jp/" rel="external nofollow noopener" target="_blank">Okinawa Institute of Science and Technology (OIST)</a> | 2025
+      <br> <br> Led a team of 4 in designing, implementing, and analyzing experiments on understanding LLM's sycophantic behavior inside model architecture, running inference on 15 open-source models from HuggingFace on GPU clusters. Published co-first authored <a href="https://arxiv.org/abs/2508.02087" rel="external nofollow noopener" target="_blank">paper</a> on LLM mechanistic interpretability at AAAI 2026 (acceptance rate 17.6%).</p1>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="padding-top: 30px; width:100%;border:0px;border-spacing:0px;border-collapse:separate;"><tbody>
+  <tr>
+    <td style="padding-right: 20px; width:25%;vertical-align:middle">
+      <img src="assets/img/keyu/moonarch-logo.png" alt="moonarch" width="160" height="150">
+    </td>
+    <td width="75%" valign="middle">
+      <p1>
+      <strong>Machine Learning Engineer</strong>
+      <br><a href="https://moonarch.io/" rel="external nofollow noopener" target="_blank">Moonarch</a> | 2025
+      <br> <br> Built a document extraction pipeline using Claude API and open-source NLP tools, structuring insights from over 5,000 mixed-format startup profiles (PDFs with images and scanned docs) using Pydantic AI, boosting accuracy by 32%.</p1>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="padding-top: 30px; width:100%;border:0px;border-spacing:0px;border-collapse:separate;"><tbody>
+  <tr>
+    <td style="padding-right: 20px; width:25%;vertical-align:middle">
+      <img src="assets/img/keyu/kaust-logo.png" alt="kaust" width="160" height="150">
+    </td>
+    <td width="75%" valign="middle">
+      <p1>
+      <strong>Visiting Student Researcher - Provable Responsible AI and Data Analytics Lab</strong>
+      <br><a href="https://www.kaust.edu.sa/en/" rel="external nofollow noopener" target="_blank">King Abdullah University of Science and Technology (KAUST)</a> | 2025
+      <br> <br> Executed large-scale LLM evaluation pipelines for fraud detection research, benchmarking 15 open- and closed-source models via API on 8,500+ fraud cases self-designed. Co-authored a peer-reviewed <a href="https://arxiv.org/abs/2502.12904" rel="external nofollow noopener" target="_blank">paper</a> at Findings of the Association for Computational Linguistics (ACL) 2025.</p1>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="padding-top: 30px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding-right: 20px; width:25%;vertical-align:middle">
       <img src="assets/img/keyu/mila_logo.png" alt="clean-usnob" width="160" height="150">
@@ -367,7 +494,7 @@
     <td width="75%" valign="middle">
       <p1>
       <strong>AI Research Intern</strong>
-      <br><a href="https://www.bell.ca/" rel="external nofollow noopener" target="_blank">Mila, Quebec AI Institute</a> | 2024
+      <br><a href="https://mila.quebec/en" rel="external nofollow noopener" target="_blank">Mila, Quebec AI Institute</a> | 2024
       <br> <br> Under the supervision of Prof. Doina Precup, researched on problems on model upstream tracking in the current AI ecosystem and ran weekly meetings for actively developing respective solution repository with a team of 4 developers. Corresponding paper is under review for NeurIPS 2024 workshops. </p1>
     </td>
   </tr>
@@ -484,24 +611,24 @@
   <h2><b>interests/ hobbies</b></h2>
   </div>
   <div class="row" style="padding-top: 20px;">
-      <div class="col-md-4 portfolio-item" align-items="center">
-        <img class="img-responsive" src="assets/img/keyu/Dancing.jpg" width="230" height="230" halign="middle">
+      <div class="col-md-4 portfolio-item" style="text-align: center;">
+        <img class="img-responsive" src="assets/img/keyu/Dancing.jpg" width="230" height="230">
         <br><p1 style="padding-top: 10px;"><strong>Dancing</strong>
         <br><br>I am an active dancer at <a href="https://www.instagram.com/krave_mcgill/?hl=en" rel="external nofollow noopener" target="_blank">K-RAVE McGill</a> and <a href="https://www.youtube.com/@East2WestOfficial" rel="external nofollow noopener" target="_blank">East2West</a>. I enjoy performing and producing K-POP dancer cover videos.</p1>
       </div>
-  
-     <div class="col-md-4 portfolio-item">
+
+     <div class="col-md-4 portfolio-item" style="text-align: center;">
         <img class="img-responsive" src="assets/img/keyu/Media.gif" width="230" height="230">
         <br><p1 style="padding-top: 10px;"><strong>Video Production &amp; Graphic Design</strong>
         <br><br> I have been involved in a video production team for the last 5 years,  with a main interest in food documentaries &amp; travel vlogs. Check out my <a href="https://1148198290.wixsite.com/keyucreation" rel="external nofollow noopener" target="_blank">videography &amp; graphic design portfolio</a> here!</p1>
       </div>
-  
-     <div class="col-md-4 portfolio-item">
+
+     <div class="col-md-4 portfolio-item" style="text-align: center;">
         <img class="img-responsive" src="assets/img/keyu/LiuYiShou.gif" width="230" height="230">
         <br><p1 style="padding-top: 10px;"><strong>Food Hunting</strong>
         <br><br>The most exciting part of travelling to me is to embrace the culture from underrated local food and the interaction with locals during my food hunting journey. With my skills in video production, I'm glad that I could record my adventures with food! </p1>
       </div>
-  
+
     </div>
             
             </div>
@@ -510,16 +637,17 @@
               
             </div>
             
-          </div>
-        </article>
+          </article>
+</div>
+        
 
 </div>
-    </div>
+    
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2025 Keyu  Wang. Last updated: September 26, 2025.
+        © Copyright 2025 Keyu  Wang. Last updated: November 19, 2025.
       </div>
     </footer>
 
