@@ -23,7 +23,7 @@ experience: true
 # social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Master of Science in **Data Science** student at [Harvard University](https://www.harvard.edu/) (graduating Jan 2027). My research and engineering focus on **trustworthy machine learning** and **AI interpretability**. I currently serve as a Research Assistant at Harvard Business School and a Policy & Technical Fellow with the AI Safety Student Team (AISST).
+I am a Master of Science in **Data Science** student at [Harvard University](https://www.harvard.edu/) (graduating Jan 2027). My research and engineering focus on **trustworthy machine learning** and **AI interpretability**. I recently interned with Microsoft's Code AI team, working on the model router for **GitHub Copilot**.
 
 Previously, I researched at [Mila](https://mila.quebec/en) with Dr. [**Doina Precup**](https://mila.quebec/en/person/doina-precup/), publishing a first-author paper at NeurIPS 2024 workshop on model provenance risks. In 2025, I interned at the [Machine Learning and Data Science Unit](https://oist.mlds.jp/) at [OIST](https://www.oist.jp/) and the [Provable Responsible AI Lab](https://pradalab1.github.io/opening.html) at [KAUST](https://www.kaust.edu.sa/en/), where I co-led work on sycophantic behavior in LLMs and co-authored a paper on mechanistic interpretability.
 
